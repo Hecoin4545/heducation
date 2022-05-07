@@ -1,0 +1,191 @@
+.main-feature-container {
+    padding-top: 3rem;
+    display: flex;
+    transition: 1s;
+}
+
+.features-overview {
+    width: 37%;
+    height: 125vh;
+}
+
+.features-overview img {
+    width: 30rem;
+    transform: rotate(45deg);
+    position: relative;
+    top: 9rem;
+    right: 12rem;
+}
+
+.sub-feature-overview {
+    width: 80%;
+    margin: auto;
+}
+
+.sub-feature-overview h1 {
+    font-size: 40px;
+    font-family: 'League Spartan', sans-serif;
+    font-display: swap;
+    margin-bottom: 15px;
+}
+
+.sub-feature-overview p {
+    font-family: 'Domine', serif;
+    font-display: swap;
+    font-size: 13px;
+    width: 119%;
+}
+
+/* .mini-box-container {
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+.right-overview-feature {
+    display: flex;
+    width: 67%;
+}
+
+.mini-box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    top: 15vh;
+}
+
+.box {
+    width: 33%;
+    border: 2px solid;
+    margin: 2px 2px;
+    border-radius: 7px;
+}
+
+.box:nth-child(1) {
+    background: url('../../photos/deco1.svg');
+    background-position-x: -66px;
+    background-repeat: no-repeat;
+    background-size: 18rem;
+    background-position-y: -5.5rem;
+    z-index: 2;
+
+}
+
+.box:nth-child(2) {
+    background: url('../../photos/deco2.svg');
+    background-position-x: -66px;
+    background-repeat: no-repeat;
+    background-size: 18rem;
+    background-position-y: -1.5rem;
+}
+
+.box:nth-child(3) {
+    background: url('../../photos/deco2.svg');
+    background-position-x: 48px;
+    background-repeat: no-repeat;
+    background-size: 18rem;
+    background-position-y: -4.5rem;
+}
+
+.box:nth-child(4) {
+    background: url('../../photos/deco1.svg');
+    background-position-x: 48px;
+    background-repeat: no-repeat;
+    background-size: 18rem;
+    background-position-y: -4.5rem;
+}
+
+.box:nth-child(5) {
+    background: url('../../photos/deco2.svg');
+    background-position-x: 48px;
+    background-repeat: no-repeat;
+    background-size: 24rem;
+    background-position-y: -4.5rem;
+}
+
+
+.box:nth-child(6) {
+    background: url('../../photos/deco1.svg');
+    background-position-x: 48px;
+    background-repeat: no-repeat;
+    background-size: 24rem;
+    background-position-y: -4.5rem;
+}
+
+.box ion-icon {
+    font-size: 71px;
+    display: flex;
+    position: relative;
+    left: 7.2rem;
+    top: 9px;
+}
+
+.heading-features {
+    margin-top: 13px;
+    text-align: center;
+    color: #620062;
+}
+
+.para-heading {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 7px;
+    margin-bottom: 10px;
+    color: #000000a6;
+    font-weight: bold;
+}
+
+.color-header-feature {
+    color: #620062;
+}
+
+.color-bold-para {
+    color: #620062;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.dark {
+    color: white;
+    background-color: #3a0b3a;
+    transition: 1s;
+}
+
+.darkSpan {
+    color: yellow;
+}
+
+.darkSpanWhite {
+    color: white;
+}
+
+
+
+@media only screen and (max-width: 1170px) {
+    .mini-box-container {
+        padding-bottom: 10rem;
+    }
+
+    .features-overview {
+        display: none;
+    }
+
+    .right-overview-feature {
+        display: flex;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 765px) {
+    .box {
+        width: 46%;
+
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .box {
+        width: 84%;
+    }
+}

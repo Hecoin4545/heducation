@@ -1,0 +1,162 @@
+.main-login-container {
+    display: flex;
+    height: 91vh;
+}
+
+.left-login-content {
+    width: 50%;
+
+}
+
+.content-login {
+    width: 70%;
+    margin: auto;
+    height: 36vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.heading-login {
+    font-family: 'League Spartan', sans-serif;
+    font-display: swap;
+}
+
+.para-login {
+    width: 90%;
+    font-family: 'Domine', serif;
+    font-display: swap;
+}
+
+.login-input-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    animation: 40%;
+    align-items: center;
+    margin-top: 19px;
+    width: 88%;
+    padding-bottom: 67px;
+}
+
+.login-input-btn input {
+    width: 21.5rem;
+    margin: 2px 0px;
+    padding: 6px 18px;
+    border-radius: 9px;
+    border: 2px solid;
+}
+
+#icon-login {
+    position: relative;
+    top: -2rem;
+    right: -9rem;
+    font-size: 21px;
+}
+
+.login-submit-btn {
+    width: 15rem;
+    height: 3rem;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    border-radius: 7px;
+    font-size: 25px;
+    font-weight: bbol;
+    font-weight: 600;
+    font-family: 'League Spartan', sans-serif;
+    font-display: swap;
+}
+
+.right-login-content {
+    display: flex;
+    align-items: flex-end;
+    width: 50%;
+}
+
+.right-login-content img {
+    width: 37rem;
+}
+
+
+.sign-up-direct {
+    font-family: 'League Spartan', sans-serif;
+    font-display: swap;
+    font-weight: bold;
+}
+
+.sign-in-with-google {
+    border: 2px solid black;
+    margin-bottom: 10px;
+    height: 40px;
+    width: 200px;
+}
+
+.dark {
+    color: white;
+    background-color: #3a0b3a;
+    transition: 1s;
+}
+
+.darkSpan {
+    color: yellow;
+}
+
+.darkSpanWhite {
+    color: white;
+}
+
+
+
+@media only screen and (max-width: 1110px) {
+    .right-login-content {
+        display: none;
+    }
+
+    .left-login-content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .content-login {
+        width: 100%;
+        height: 26vh;
+        margin: 0px;
+        align-items: center;
+    }
+
+    .para-login {
+        width: 100%;
+        font-family: 'Domine', serif;
+        font-display: swap;
+    }
+
+    .forunique {
+        position: relative;
+        top: 0px;
+        right: 0px;
+    }
+
+    .login-input-btn {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 390px) {
+    .login-input-btn input {
+        width: 16.5rem;
+    }
+
+    #icon-login {
+        right: -7rem;
+    }
+
+    .login-submit-btn {
+        width: 11rem;
+    }
+}

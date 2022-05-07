@@ -1,0 +1,83 @@
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #3a0b3a;
+    padding-top: 20px;
+}
+
+.box-inner-footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 15px;
+    border-bottom: 2px solid white;
+    border-radius: 2px;
+    padding: 16px 0px;
+}
+
+.box-inner-footer h1 {
+    font-size: 45px;
+    font-family: 'League Spartan', sans-serif;
+    font-display: swap;
+    color: white;
+}
+
+.box-inner-footer p {
+    width: 62%;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: 'Domine', serif;
+    font-display: swap;
+    color: white;
+    font-size: 14px;
+
+}
+
+#gg-socials {
+    font-size: 27px;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    margin: 5px;
+    background: white;
+    border-radius: 10px;
+    color: black;
+}
+
+.inner-double-footer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 0px 12px;
+    margin-bottom: 8px;
+
+}
+
+.inner-double-footer p {
+    font-size: 14px;
+    font-family: 'Domine', serif;
+    font-display: swap;
+}
+
+
+
+@media only screen and (max-width: 740px) {
+    .box-inner-footer {
+        width: 100%;
+    }
+
+    .inner-double-footer p {
+        display: none;
+    }
+
+    .box-inner-footer p {
+        width: 87%;
+    }
+}

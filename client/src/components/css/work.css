@@ -1,0 +1,169 @@
+.how-it-works {
+    width: 100%;
+    padding: 0px 9vw;
+    padding-top: 4rem;
+    display: flex;
+}
+
+.left-how-work {
+    width: 55%;
+    margin-bottom: 3rem;
+}
+
+.how-intro {
+    height: 11vh;
+    width: 95%;
+    font-size: 49px;
+    font-family: 'League Spartan', sans-serif;
+    font-display: swap;
+}
+
+.heading-work {
+    font-size: 31px;
+    color: #620062;
+}
+
+.para-work {
+    margin-top: 11px;
+    width: 50%;
+    color: #422f2fb5;
+}
+
+.box-work-com {
+    display: flex;
+    padding: 20px 0px;
+}
+
+.icon-how {
+    font-size: 40px;
+    margin-right: 1.5rem;
+    display: flex;
+    align-items: center;
+    border: 2px solid;
+    border-radius: 50%;
+    width: 17%;
+    height: 9vh;
+    justify-content: center;
+    position: relative;
+    top: 2rem;
+    background-color: purple;
+    color: white;
+}
+
+.font-change {
+    font-size: 38px;
+    left: -3px;
+}
+
+
+
+#after-mate1::before {
+    content: "";
+    position: relative;
+    top: 13rem;
+    left: 1.1rem;
+    width: 6px;
+    height: 77vh;
+    background-color: purple;
+    border-radius: 5px;
+}
+
+.right-how-work {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.right-how-work img {
+    width: 100%;
+}
+
+
+.color-change-highlight {
+    color: #620062;
+}
+
+.color-change-high {
+    color: #620062;
+    font-weight: bold;
+}
+
+.dark {
+    color: white;
+    background-color: #3a0b3a;
+    transition: 1s;
+}
+
+.darkSpan {
+    color: yellow;
+}
+
+.darkSpanWhite {
+    color: white;
+}
+
+@media only screen and (max-width: 1275px) {
+    .right-how-work {
+        display: none;
+    }
+
+    .icon-how {
+        display: none;
+    }
+
+    .left-how-work {
+        width: 100%;
+    }
+
+    .content-how {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .para-work {
+        width: 80%;
+        text-align: center;
+    }
+
+    .how-intro {
+        font-size: 47px;
+        text-align: center;
+        margin-bottom: 51px;
+    }
+}
+
+@media only screen and (max-width: 446px) {
+    .how-it-works {
+        width: 100%;
+        padding: 0px 9vw;
+        padding-top: 4rem;
+        display: flex;
+    }
+
+    .how-intro {
+        font-size: 38px;
+        text-align: center;
+        margin-bottom: 51px;
+    }
+
+    .para-work {
+        width: 88%;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .heading-work {
+        font-size: 27px;
+        color: #620062;
+    }
+
+    .how-intro {
+        font-size: 36px;
+        text-align: center;
+        margin-bottom: 51px;
+        width: 100%;
+    }
+}

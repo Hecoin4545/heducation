@@ -1,0 +1,118 @@
+.container-maths-chapter {
+    display: flex;
+    padding: 40px 3rem;
+}
+
+.inner-container-math1 {
+    border-radius: 5px;
+    border: 2px solid;
+    padding: 10px 20px;
+    width: 30%;
+    margin: 0px 8px;
+}
+
+.tittle-chap {
+    font-size: 36px;
+}
+
+.desp {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+.con-ma {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.btn-maths {
+    position: relative;
+    left: 9rem;
+}
+
+.inner-container-math1 button {
+    width: 100px;
+    height: 42px;
+    margin-bottom: 10px;
+}
+
+.dark {
+    color: white;
+    background-color: #3a0b3a;
+    transition: 1s;
+}
+
+.darkSpan {
+    color: yellow;
+    background-color: #3a0b3a;
+
+}
+
+.darkSpanWhite {
+    color: white;
+}
+
+.container-cen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+@media only screen and (max-width: 1384px) {
+    .container-maths-chapter {
+        padding: 0px;
+        width: 88%;
+        position: relative;
+        right: -4rem;
+        padding: 10px 0px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .inner-container-math1 {
+        width: auto;
+        border: 2px solid;
+        padding: 10px 20px;
+        margin: 5px 5px;
+    }
+}
+
+
+@media only screen and (max-width: 520px) {
+    .tittle-chap {
+        font-size: 25px;
+    }
+
+    .desp {
+        width: 84%;
+        margin: auto;
+        font-size: 14px;
+        position: relative;
+        left: -26px;
+    }
+
+    .con-ma {
+        flex-direction: column;
+    }
+
+    .container-maths-chapter {
+        width: 100%;
+        position: relative;
+        right: 0rem;
+    }
+
+    .btn-maths {
+        position: relative;
+        left: 3rem;
+    }
+
+
+
+}

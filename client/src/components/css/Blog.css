@@ -1,0 +1,176 @@
+.blog-container-main-ok {
+    margin-top: 5rem;
+    background-color: #8080803b;
+    padding: 20px 0vh;
+}
+
+.overview-blog {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.overview-blog p {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.blog-container {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.blog-con {
+    margin: 5px;
+    padding: 10px;
+}
+
+.blog-con img {
+    width: 21rem;
+    height: 13rem;
+}
+
+.time-author {
+    color: grey;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    font-family: 'Domine', serif;
+    font-display: swap;
+
+}
+
+.title-blog {
+    font-size: 26px;
+    width: 90%;
+    margin-top: 19px;
+    font-family: 'League Spartan', sans-serif;
+    font-display: swap;
+
+}
+
+.content-blog {
+    width: 96%;
+    margin-top: 10px;
+    font-size: 15px;
+    margin-bottom: 17px;
+    color: #000000c7;
+
+}
+
+.read-more-blog {
+    color: blue;
+    background: transparent;
+    border: none;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.hydrated {
+    position: relative;
+    top: 2.5px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.display {
+    top: 0px;
+}
+
+.author-name {
+    color: #620062;
+    font-family: 'League Spartan', sans-serif;
+    font-display: swap;
+
+}
+
+.ketali-color-change {
+    color: #620062;
+}
+
+.dark {
+    color: white;
+    background-color: #3a0b3a;
+    transition: 1s;
+    margin: 0px;
+}
+
+.darkSpan {
+    color: yellow;
+}
+
+.darkSpanWhite {
+    color: white;
+}
+
+
+@media only screen and (max-width: 1125px) {
+
+    .blog-container {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .blog-con {
+        margin: 5px;
+        padding: 10px;
+        width: 35%;
+    }
+
+
+}
+
+@media only screen and (max-width: 985px) {
+    .blog-con {
+        margin: 5px;
+        padding: 10px;
+        width: 49%;
+    }
+}
+
+
+
+@media only screen and (max-width: 675px) {
+    .overview-blog p {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .blog-con img {
+        width: 17rem;
+        height: 11rem;
+    }
+
+    .title-blog {
+        font-size: 22px;
+
+    }
+
+    .content-blog {
+
+        font-size: 12px;
+
+    }
+
+    .blog-con {
+
+        width: 82%;
+    }
+}
+
+@media only screen and (max-width: 325px) {
+    .blog-con img {
+        width: 15rem;
+        height: 9rem;
+    }
+}

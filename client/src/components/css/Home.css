@@ -1,0 +1,177 @@
+* {
+    overflow: visible;
+}
+
+.home-page-background {
+    background-color: #3a0b3a;
+    display: flex;
+    overflow: visible;
+}
+
+.right-home-page-side {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    padding-top: 6rem;
+}
+
+.right-home-page-side h1 {
+    width: 84%;
+    text-align: left;
+    margin-top: 3rem;
+    padding-left: 70px;
+    font-size: 58px;
+    font-family: 'League Spartan', sans-serif;
+    font-display: swap;
+    letter-spacing: 1px;
+    color: white;
+    z-index: 2;
+}
+
+.right-home-page-side p {
+    width: 75%;
+    text-align: left;
+    margin-top: 2.5rem;
+    padding-left: 72px;
+    font-family: 'Domine', serif;
+    font-display: swap;
+    color: white;
+    z-index: 2;
+}
+
+.quick-access-btn {
+    width: 120px;
+    height: 45px;
+    font-family: 'League Spartan', sans-serif;
+    font-display: swap;
+    background-color: white;
+    border: 2px solid white;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-top: 0.5rem;
+    position: relative;
+    left: 4.4rem;
+    z-index: 2;
+}
+
+.quick-access-btn a {
+    color: black;
+    text-decoration: none;
+}
+
+.quick-access-btn:hover {
+    background-color: #ffffffe3;
+    border: #ffffffe3;
+    transition: 0.5s;
+}
+
+.left-home-page-side {
+    width: 33%;
+    margin-top: 7vh;
+    display: flex;
+    margin-bottom: 35px;
+}
+
+.deco-svg-ball {
+    width: 100px;
+    position: absolute;
+    z-index: 1;
+}
+
+.deco1 {
+    width: 16rem;
+    top: 15rem;
+    left: -8rem;
+}
+
+.deco2 {
+    width: 14rem;
+    left: 4rem;
+}
+
+
+
+.deco5 {
+    width: 9rem;
+    left: 20rem;
+    top: 18rem;
+}
+
+.deco6 {
+    width: 20rem;
+    left: 19rem;
+    top: 1rem;
+}
+
+.deco8 {
+    width: 30rem;
+    left: 30rem;
+    top: 3vh;
+}
+
+
+@media only screen and (max-width: 1145px) {
+    .left-home-page-side {
+
+        display: none;
+    }
+
+    .right-home-page-side {
+        width: 100%;
+        padding-bottom: 2rem;
+    }
+
+    .right-home-page-side h1 {
+        width: 97%;
+        text-align: center;
+    }
+
+    .right-home-page-side p {
+        width: 94%;
+        text-align: center;
+    }
+
+    .right-home-page-side img {
+        display: none;
+    }
+
+    .right-home-page-side a {
+        text-align: center;
+        position: relative;
+        left: -4rem;
+
+    }
+
+    .right-home-page-side {
+
+        padding-top: 1rem;
+    }
+}
+
+@media only screen and (max-width: 625px) {
+
+    .right-home-page-side p {
+        margin-top: 1.5rem;
+        font-size: 13px;
+        padding: 0px;
+    }
+
+    .right-home-page-side h1 {
+        font-size: 38px;
+        padding: 0px;
+    }
+
+}
+
+@media only screen and (max-width: 360px) {
+    .right-home-page-side h1 {
+        font-size: 23px;
+    }
+
+    .right-home-page-side p {
+        font-size: 10px;
+    }
+}

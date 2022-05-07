@@ -1,0 +1,90 @@
+.container-folder {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 45px 48px;
+}
+
+.folders {
+    width: 32%;
+    border: 2px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 34px;
+    margin: 4px 4px;
+    border-radius: 10px;
+}
+
+.folders p {
+    text-align: center;
+}
+
+.folders ion-icon {
+    font-size: 93px;
+}
+
+.folders button {
+    width: 10rem;
+    background-color: #270d80;
+    height: 48px;
+    border: 2px solid;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.folders button a {
+    width: 10rem;
+    height: 48px;
+    text-decoration: none;
+    color: white;
+}
+
+.dark {
+    color: white;
+    background-color: #3a0b3a;
+    transition: 1s;
+}
+
+.darkSpan {
+    color: yellow;
+}
+
+.darkSpanWhite {
+    color: white;
+}
+
+
+@media only screen and (max-width: 1110px) {
+    .container-folder {
+        display: flex;
+        justify-content: center;
+    }
+
+    .folders {
+        width: 38%;
+
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .container-folder {
+
+        padding: 45px 28px;
+    }
+
+    .folders {
+        width: 100%;
+    }
+
+    .folders p {
+        font-size: 11px;
+        text-align: center;
+    }
+
+    .folders h1 {
+        font-size: 25px;
+    }
+}

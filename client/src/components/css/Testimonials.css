@@ -1,0 +1,93 @@
+.overview-test {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.testimonial-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0px 11vw;
+}
+
+.boxes-test {
+    border-radius: 15px;
+    border: 2px solid;
+    margin: 5px;
+    padding: 15px;
+}
+
+.boxes-test img {
+    margin-bottom: 10px;
+}
+
+.boxes-test p {
+    margin-bottom: 36px;
+    font-family: 'Domine', serif;
+    font-display: swap;
+    font-size: 15px;
+}
+
+.person-testimonial p {
+    font-family: 'League Spartan', sans-serif;
+    font-display: swap;
+    font-size: 20px;
+    position: relative;
+    top: 9px;
+    margin: 0px;
+}
+
+.person-testimonial span {
+    font-family: 'Domine', serif;
+    font-display: swap;
+    font-size: 15px;
+}
+
+.color-change-test {
+    color: #620062;
+}
+
+.color-change-1 {
+    color: #620062;
+    font-weight: bold;
+}
+
+
+.dark {
+    color: white;
+    background-color: #3a0b3a;
+    transition: 1s;
+}
+
+.darkSpan {
+    color: yellow;
+}
+
+.darkSpanWhite {
+    color: white;
+}
+
+
+
+@media only screen and (max-width: 1005px) {
+    .testimonial-container {
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 388px) {
+    .overview-test h1 {
+        font-size: 24px;
+    }
+
+    .boxes-test p {
+        font-size: 12px;
+    }
+
+    .boxes-test p {
+        margin-bottom: 11px;
+    }
+
+}

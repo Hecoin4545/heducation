@@ -1,0 +1,253 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.nav-bar {
+    height: 9vh;
+    background-color: #3a0b3a;
+    color: white;
+    display: flex;
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+}
+
+.sticky {
+    padding: 5px 100px;
+    background-color: black;
+    transition: 0.5s;
+}
+
+.sticky li a {
+    justify-content: center;
+}
+
+.left-side-nav {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-name {
+    font-family: 'League Spartan', sans-serif;
+    font-display: swap;
+    font-size: 28px;
+    margin-bottom: 0px;
+}
+
+.logo-name a {
+    color: white;
+    text-decoration: none;
+}
+
+.center-side-nav {
+    width: 55%;
+}
+
+.center-side-nav ul {
+    display: flex;
+    height: 8vh;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.center-side-nav li {
+    list-style: none;
+}
+
+.center-side-nav a {
+    font-family: 'Domine', serif;
+    font-display: swap;
+    margin: 0px 25px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.center-side-nav a:hover {
+    color: #fbdeded6;
+    transition: 0.5s;
+}
+
+.right-side-nav {
+    width: 36%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 30px;
+    align-items: center;
+}
+
+.dark-mode-contai {
+    position: relative;
+    width: 75px;
+    height: 40px;
+    background: #212121;
+    border-radius: 10px;
+    margin-right: 25px;
+}
+
+.dark-mode-contai input {
+    appearance: none;
+}
+
+.dark-mode-contai span {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 38px;
+    height: 40px;
+    background-color: #333;
+    border: 6px solid #212121;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+
+.dark-mode-contai input:checked~span {
+    left: 33px;
+}
+
+
+.dark-mode-contai span ion-icon {
+    color: rgba(225, 225, 225, 0.25);
+    font-size: 1.3em;
+    transition: 0.5s;
+}
+
+.dark-mode-contai input:checked~span ion-icon {
+    color: white;
+    filter: drop-shadow(0 0 5px #fff);
+}
+
+.log-btn {
+    width: 120px;
+    height: 38px;
+    font-family: 'League Spartan', sans-serif;
+    font-display: swap;
+    background-color: white;
+    border: 2px solid white;
+    color: black;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.log-btn:hover {
+    transition: 0.7s;
+    background-color: #fbdeded6;
+}
+
+
+.logout-navbar {
+    margin: 0px 20px;
+}
+
+form {
+    display: flex;
+}
+
+.conti-dist {
+    display: none;
+}
+
+
+.line {
+    width: 29px;
+    height: 4px;
+    margin: 5px 0px;
+    background-color: white;
+    border-radius: 4px;
+}
+
+
+
+.burger {
+    display: none;
+}
+
+
+@media only screen and (max-width: 1384px) {
+    .burger {
+        display: block;
+        position: fixed;
+        top: 10px;
+        right: 37px;
+    }
+
+
+    .left-side-nav {
+        width: 100%;
+    }
+
+    .logo-name {
+        font-size: 35px;
+    }
+
+    .center-side-nav {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .center-side-nav ul {
+
+        margin: 0px;
+        margin-bottom: 7px;
+    }
+
+    .center-side-nav a {
+        font-size: 15px;
+    }
+
+    .right-side-nav {
+        width: 88%;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        left: 18px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dark-mode-contai {
+        position: relative;
+        top: 3px;
+        margin-bottom: 11px;
+    }
+
+    .log-btn {
+        width: 83px;
+        font-size: 15px;
+    }
+
+    form {
+        position: relative;
+        right: 9px;
+        margin-top: 3px;
+    }
+
+    .hei {
+        height: 54vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .vis {
+        display: none;
+    }
+
+}
