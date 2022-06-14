@@ -131,7 +131,7 @@ function App() {
         U.S.A Getting Benifitted From The War"
               para="The start of the Russia-Ukraine conflict has a long way down the lane
         and it began in 2014 with Russia’s invasion of Ukraine. Russia annexed
-        the Crimean peninsula and that was the onset of various current
+        the Crimean peninsula and that was the onset of various current 
         political conflicts. During the decades of the cold war between the US
         and USSR, two institutions named NATO, which was formed in 1949 and
         Warsaw Pact, which was formed in 1955, came into existence. NATO or 
