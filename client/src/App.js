@@ -134,7 +134,7 @@ function App() {
         the Crimean peninsula and that was the onset of various current
         political conflicts. During the decades of the cold war between the US
         and USSR, two institutions named NATO, which was formed in 1949 and
-        Warsaw Pact, which was formed in 1955, came into existence. NATO or
+        Warsaw Pact, which was formed in 1955, came into existence. NATO or 
         North Atlantic Treaty Organisation represents the US and many western
         European countries whereas the Warsaw pact, as the name suggests,
         consisted of the USSR and other east European countries. NATO is
