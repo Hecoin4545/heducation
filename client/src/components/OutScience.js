@@ -17,7 +17,7 @@ export default function OutScience(props) {
       >
         <Science
           chapter='Chapter-6 , Life Processes'
-          description='Basically Talks About Living Organisms'
+          description='Basically Talks About Living Organisms.'
           subject='Science'
           author='Gopesh Italia'
           img={life}
