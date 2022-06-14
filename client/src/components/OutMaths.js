@@ -5,6 +5,7 @@ import '../components/css/Maths.css';
 import realNumbers from '../pdf/realnumber.pdf';
 import poly from '../pdf/polynomials.pdf';
 import proba from '../pdf/probability.pdf';
+import trigo from '../pdf/trigo.pdf';
 
 export default function OutMaths(props) {
   return (
@@ -36,6 +37,13 @@ export default function OutMaths(props) {
           subject='Maths'
           author='Shah Het'
           img={proba}
+        />
+        <Maths
+          chapter='Chapter-6 , Trigo'
+          description='Trigo Ko Dhek Ke Me Be like :- Chalo Doctor Hi ban jate hai'
+          subject='Maths'
+          author='Shah Het'
+          img={trigo}
         />
       </div>
     </>

@@ -4,6 +4,7 @@ import '../components/css/English.css';
 import letterGod from '../pdf/lettergod.pdf';
 import mandela from '../pdf/mandela.pdf';
 import grammer from '../pdf/englishgramm.pdf';
+import triump from '../pdf/triumph.pdf';
 
 export default function OutEnglish(props) {
   return (
@@ -37,6 +38,14 @@ export default function OutEnglish(props) {
           subject='English'
           author='Aryan Khatri'
           img={grammer}
+        />
+
+        <English
+          chapter='ch :- 1   ,English'
+          description=' !?? '
+          subject='English'
+          author='Aryan Khatri'
+          img={triump}
         />
       </div>
     </>
